@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --color-background-light: theme("colors.background.light");
+  --color-background-default: theme("colors.background.DEFAULT");
+  --color-background-dark: theme("colors.background.dark");
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  /* span-left: 10%;
+  span-right: 10%; */
+}
+
+body {
+  background-color: var(--color-background-default);
+  /* padding-left: 3%; */
+
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+
+.card {
+  border: 1px solid yellow;
+}
+
+.card .context {
+  border: 1px solid red;
+  width: 70%;
+}
+
+.card .lex {
+  border: 1px solid blue;
+  height: auto;
+}
+
+.contact {
+  border: 1px solid green;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.icons {
+  margin: 10px;
+  margin-top: 20px;
+  /* height: 8px; */
+  width: auto;
+}
+
+.profile {
+  border: 3px solid #efd6bf;
+  border-radius: 100%;
+  box-shadow: 0px 0px 15px #fec62e;
+}
+
+.backProfile {
+  width: 620px;
+  height: 620px;
+  background-color: #241d15;
+  border: 1px solid red;
+}
+
+.circle {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  border-radius: 50%;
+  border: 3px solid blue;
+}
+
+.backPanel {
+  position: absolute;
+  content: end;
+  width: 100%;
+  height: 40%;
+  border: 3px solid gray;
+}
