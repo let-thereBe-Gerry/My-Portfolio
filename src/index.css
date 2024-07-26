@@ -24,21 +24,21 @@ body {
 }
 
 .card {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .card .context {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 70%;
 }
 
 .card .lex {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: auto;
 }
 
 .contact {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 20px;
   width: 400px;
 }
@@ -60,21 +60,13 @@ body {
   width: 620px;
   height: 620px;
   background-color: #241d15;
-  border: 1px solid red;
 }
 
-.circle {
-  width: 600px;
-  height: 600px;
-  background-color: red;
-  border-radius: 50%;
-  border: 3px solid blue;
-}
 
 .backPanel {
   position: absolute;
   content: end;
   width: 100%;
-  height: 40%;
-  border: 3px solid gray;
+  height: 50%;
+  /* border: 3px solid gray; */
 }
