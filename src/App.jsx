@@ -1,16 +1,10 @@
-import Navbar from "./components/Navbar"
-import Content from "./components/Content"
-import Footer from "./components/Footer"
+import HomePage from "./components/HomePage"
 
 export default function App() {
   return (
     <>
-    <Navbar />
-    
-    <Content />
-    
-    <Footer />
-    
+      <HomePage />
+
     </>
   )
 }

@@ -1,14 +1,10 @@
 import profilePic from '../assets/Profile.png'
 import fb from '../assets/icons/fb.png'
-import { FaFacebookF } from "react-icons/fa";
 import ins from '../assets/icons/ins.png'
-import { FaInstagram } from "react-icons/fa6";
 import tele from '../assets/icons/tele.png'
-import { FaTelegramPlane } from "react-icons/fa";
 import lnk from '../assets/icons/lnk.png'
-import { FaLinkedinIn } from "react-icons/fa";
 import ggl from '../assets/icons/ggl.png'
-import { MdAlternateEmail } from "react-icons/md";
+import backG1 from '../assets/background-images/bg1.png'
 
 function Content() {
 
@@ -24,9 +20,15 @@ function Content() {
         <>
             <body>
 
-                <div className='flex relative items-end '>
+                <div className='flex relative items-end justify-center'>
+
+                    <div className='flex absolute w-[100vw]  justify-end'>
+                        <img src={backG1} alt="Background" className='h-[80vh]'/>
+                    </div>
+
                     <div className='absolute backPanel flex -z-15 content-end  bg-panel  '></div>
                     <div className="relative card grid grid-cols-4 gap-4 mt-90 py-9 z-20 ">
+
 
                         <div className='lex col-span-2 flex justify-end  p-4 relative'>
                             <div className='flex justify-center '>
@@ -73,9 +75,6 @@ function Content() {
                         </div>
                     </div>
                 </div>
-
-
-
 
             </body>
 
